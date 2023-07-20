@@ -38,7 +38,7 @@ export default function IronManGiphyPage() {
           {isLoading && (
             <div className=''>
               <p className='animate-bounce py-6 text-center text-gray-400'>
-                Loading ironman giphy...
+                Loading {searchQueryDebounce} giphy...
               </p>
             </div>
           )}
