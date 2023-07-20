@@ -8,11 +8,21 @@ const nextConfig = {
   swcMinify: true,
 
   // Uncoment to add domain whitelist
-  // images: {
-  //   domains: [
-  //     'res.cloudinary.com',
-  //   ],
-  // },
+  images: {
+    domains: [
+      'res.cloudinary.com',
+      'media0.giphy.com',
+      'media1.giphy.com',
+      'media2.giphy.com',
+      'media3.giphy.com',
+      'media4.giphy.com',
+      'media5.giphy.com',
+      'media6.giphy.com',
+      'media7.giphy.com',
+      'media8.giphy.com',
+      'media9.giphy.com',
+    ],
+  },
 
   webpack(config) {
     // Grab the existing rule that handles SVG imports
