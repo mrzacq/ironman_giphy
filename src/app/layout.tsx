@@ -55,7 +55,13 @@ export default function RootLayout({
 }) {
   return (
     <html>
-      <body>{children}</body>
+      <body>
+        {children}
+
+        <footer className='py-4 text-center'>
+          Powered by <b>GIPHY</b>
+        </footer>
+      </body>
     </html>
   );
 }
