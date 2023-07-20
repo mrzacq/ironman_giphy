@@ -24,9 +24,9 @@ export default function IronManGiphyPage() {
           <h1>SEARCH YOUR GIPHY</h1>
 
           <div className=''>
-            <form>
+            <form onSubmit={(e) => e.preventDefault()}>
               <input
-                className='w-[600px]'
+                className='w-[328px] lg:w-[600px]'
                 type='search'
                 placeholder='Search Giphy'
                 value={searchQuery}
